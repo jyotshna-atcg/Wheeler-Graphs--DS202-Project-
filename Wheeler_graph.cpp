@@ -57,9 +57,7 @@ int main()
     while(cin >> s){
         sqc.append(s);
     }
-    //sqc.append('$');
     
-   //string sqc="ATCGTACTGATAATGACGATCGACTACGAA$";
 
     int n = sqc.length();
     int *SA =(int *)malloc(n* sizeof(int));
